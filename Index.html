@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+           
+            background-color: #000;
+        }
+        section{
+            position: absolute;
+            display: flex;
+            width: 100vw;
+            width: 100vw;
+            justify-content: center;
+            align-items: center;
+           
+            gap: 4px;
+            flex-wrap: wrap;
+
+            overflow: hidden;
+           
+
+        }
+
+        section::before{
+            content:'';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(black, blue, green, black, red, green, blue,black, blue, green, red);
+            animation: animate 2s linear infinite;
+        }
+        @keyframes animate {
+            0% {transform: translateY(-100%);}
+            100%{ transform: translateY(100%);}
+            
+        }
+        section div{
+            position: relative;
+            display: block;
+            width: calc(6.25vw - 2px);
+            height: calc(6.25vw - 2px);
+             
+             background-color: #181818;
+             z-index: 2;
+             transition: 1.5s;
+        }
+        
+       div .col:hover{
+            background-color: rgb(255, 230, 0);
+            transition: 0s;
+        }
+      
+
+       
+    </style>
+
+</head>
+<body class="bg-ash">
+    <div class="container-fluid">
+        <section class="row rows">
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            <div class="col border-light w-25 border-2x p-5"></div>
+            
+            
+        </section>
+    </div>
+    
+</body>
+</html>
